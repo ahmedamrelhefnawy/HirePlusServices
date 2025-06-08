@@ -49,7 +49,7 @@ with col1:
         st.session_state.choice = "Dashboard"
     
 with col2:
-    if st.button("📄 Resume Analyzer", use_container_width=True):
+    if st.button("📄Resume Analyzer", use_container_width=True):
         st.session_state.choice = "Resume Analyzer"
 
 with col3:
